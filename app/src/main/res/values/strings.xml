@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">SocioGrevier</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="invalid_name">Please Enter Valid Name</string>
+    <string name="invalid_contact">Please Enter Valid Contact</string>
+    <string name="invalid_email">Please Enter Valid Email</string>
+    <string name="invalid_password">Please Enter Valid Password</string>
+    <string name="invalid_confirm_password">Password dont match</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="google_map_key">AIzaSyCYzGCeSfc-ZoEjMakLWvfo08FHc99oz4Q</string>
+</resources>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/try2"
+    tools:context=".cyber"
+    android:fitsSystemWindows="true"
+    tools:openDrawer="start"
+    android:id="@+id/drawer_layout_cy">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="200dp"
+        android:fontFamily="@font/metal_mania"
+        android:gravity="center"
+        android:inputType="textPersonName"
+        android:text="For Any Query Email Us At :"
+        android:textColor="@color/colorAccent"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/text_show_category_police"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:text="mankar_mayuresh.cs@ghrce.raisoni.net"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/text_show_category_hospital"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_gravity="center"
+        android:textColor="@android:color/holo_red_dark"
+        android:layout_marginTop="30dp"
+        android:orientation="vertical"
+        android:text="shukla_sakshij.ghrcecs@raisoni.net"
+        android:textSize="15dp"
+        android:gravity="center"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/text_show_category_covid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:textColor="@android:color/holo_red_dark"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:text="kamde_prasansha.cs@ghrce.raisoni.net"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/text_show_category_blood"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:textColor="@android:color/holo_red_dark"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:text="kalra_ashmeet.cs@ghrce.raisoni.net"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+</LinearLayout>

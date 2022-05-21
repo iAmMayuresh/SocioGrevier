@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/try2"
+    tools:context=".categories_with_comp">
+
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="200dp"
+        android:fontFamily="@font/metal_mania"
+        android:gravity="center"
+        android:inputType="textPersonName"
+        android:text="Complaint Categories :"
+        android:textColor="@color/colorAccent"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/text_show_category_police"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:onClick="showallpolicecomp_txt"
+        android:orientation="vertical"
+        android:text="Show All Police Complaints"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/text_show_category_hospital"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_gravity="center"
+        android:textColor="@android:color/holo_red_dark"
+        android:layout_marginTop="30dp"
+        android:orientation="vertical"
+        android:text="Show All Hospital Complaints"
+        android:textSize="25dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:onClick="showallhospcomp_txt"/>
+
+    <TextView
+        android:id="@+id/text_show_category_covid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:textColor="@android:color/holo_red_dark"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:text="Show All Covid Complaints"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:onClick="showallcovidcomp_txt"/>
+
+    <TextView
+        android:id="@+id/text_show_category_blood"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:textColor="@android:color/holo_red_dark"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:text="Show All Blood Bank Complaints"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:onClick="showallBloodcomp_txt"/>
+
+</LinearLayout>

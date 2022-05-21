@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:dist="http://schemas.android.com/apk/distribution"
+    package="com.mayuresh08.sociogrevier">
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <dist:module dist:instant="true" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".sos"></activity>
+        <activity android:name=".categories_with_comp" />
+        <activity android:name=".show_blood_complaints" />
+        <activity android:name=".show_covid_complaints" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_map_key" />
+
+        <activity android:name=".shownearby" />
+        <activity android:name=".sho_hosp_complaint" />
+        <activity android:name=".show_police_comp" />
+        <activity android:name=".register_profile" />
+        <activity android:name=".profile" />
+        <activity android:name=".cyber" />
+        <activity android:name=".blood" />
+        <activity android:name=".covid" />
+        <activity android:name=".hospital" />
+        <activity android:name=".police" />
+        <activity android:name=".dashboard" />
+        <activity android:name=".register" />
+        <activity android:name=".login" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
